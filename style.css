@@ -104,7 +104,7 @@ img{
 .section-title1{
   position: relative;
   font-size: 20px;
-  color: #999;
+  color: #00d47c;
   margin-bottom: var(--mb-4);
   text-align: center;
 }
@@ -490,3 +490,12 @@ img{
 
 }
 
+.text {
+  color: #3283d4;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #3283d4;
+  opacity: 1; /* Firefox */
+}
